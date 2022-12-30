@@ -1,0 +1,288 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  background: rgb(240, 110, 132);
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: wheat;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(15, 15, 85);
+  text-align: center;
+  width: 20vw;
+  height: 70vh;
+  margin: 15vh auto;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 8px 8px 1px rgb(74, 154, 219), 8px 8px 1px rgb(74, 154, 219),
+    15px 25px 25px black;
+}
+
+.result-field {
+  width: 100%;
+  height: 35%;
+}
+
+.result {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: rgb(2, 2, 45);
+  text-align: right;
+  color: white;
+  font-size: 40px;
+  padding-right: 5%;
+}
+
+.btns {
+  height: 65%;
+  width: 20vw;
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 9.5vh;
+}
+
+.special {
+  display: flex;
+  flex-direction: row;
+}
+
+.final {
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(2, 2, 45);
+  padding-top: 6%;
+  font-size: 23px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.3s;
+}
+.equal {
+  width: 26.6%;
+  height: 17vh;
+  padding-top: 15%;
+}
+
+.cl {
+  /* height: 100%; */
+  display: flex;
+  height: 9.5vh;
+  width: 15vw;
+}
+
+.zero {
+  width: 203%;
+}
+
+.green {
+  color: rgb(4, 199, 4);
+}
+
+.blue {
+  color: rgb(120, 120, 231);
+}
+
+.box:hover {
+  font-size: 27px;
+  background-color: rgb(248, 209, 136);
+  color: black;
+  font-weight: 600;
+  padding-top: 5%;
+}
+
+.equal:hover {
+  padding-top: 14%;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 300px) {
+  #main-container {
+    width: 60vw;
+    height: 70vh;
+  }
+
+  .btns {
+    width: 60vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .result {
+    font-size: 15px;
+  }
+
+  .equal {
+    width: 33%;
+    height: 17vh;
+    padding-top: 15%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .box {
+    font-size: 20px;
+  }
+
+  .cl {
+    /* height: 100%; */
+    height: 9.5vh;
+    width: 100%;
+  }
+
+  .final {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #main-container {
+    width: 50vw;
+    height: 70vh;
+  }
+
+  .btns {
+    width: 50vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .result {
+    font-size: 25px;
+  }
+
+  .equal {
+    width: 33%;
+    height: 17vh;
+    padding-top: 15%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .box {
+    font-size: 20px;
+  }
+
+  .cl {
+    /* height: 100%; */
+    height: 9.5vh;
+    width: 100%;
+  }
+
+  .final {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #main-container {
+    width: 40vw;
+    height: 70vh;
+  }
+
+  .btns {
+    width: 40vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .result {
+    font-size: 25px;
+  }
+
+  .equal {
+    width: 33%;
+    height: 17vh;
+    padding-top: 15%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .box {
+    font-size: 20px;
+  }
+
+  .cl {
+    /* height: 100%; */
+    height: 9.5vh;
+    width: 100%;
+  }
+
+  .final {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #main-container {
+    width: 35vw;
+    height: 70vh;
+  }
+
+  .btns {
+    width: 35vw;
+    padding: 0;
+    margin: 0;
+  }
+
+  .result {
+    font-size: 25px;
+  }
+
+  .equal {
+    width: 33%;
+    height: 17vh;
+    padding-top: 15%;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .box {
+    font-size: 20px;
+  }
+
+  .cl {
+    /* height: 100%; */
+    height: 9.5vh;
+    width: 100%;
+  }
+
+  .final {
+    width: 100%;
+    height: 100%;
+  }
+}
